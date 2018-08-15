@@ -1,3 +1,10 @@
+gg.setVisible(true)
+
+
+	while(true) do
+	if gg.isVisible(true) then
+		gg.setVisible(false) 
+		gg.clearResults()
 i = gg.choice({" 🌀 Turn "..sESP.." Chams", "🌀 Turn "..tw.." Shoot Through Walls", "🌀 Turn "..fov.." FoV Hack", "🌀 Turn "..aimbot.." Aimbot", "🌀 Turn "..lst.." ESP (Activate In Lobby)", "🌀 Turn "..lah.." Legend Ammo Hack",  "🌀 Turn "..fah.." Falcon Ammo Hack", "🌀 Turn "..bah.." Buffalo Ammo Hack", "🌀 Turn "..gah.." Guillotine Ammo Hack", "🌀 Turn "..bbah.." Blunderbluss Ammo Hack",  "🌀 Turn "..gah.." Grenade Radius Hack", "🌀 Turn "..bbah.." Speedhack", "🌀 Turn "..ultraa.." Ultra Aimbot", "🌀 Turn "..wallc.." Wallclimb", " 🌀 Turn "..speedf.." Speed Fly", "🌀 Credits ", "🌀 Quit Script"}, nil, "Onyx Framework (GoB Script Made By Chikri)")
         if i == 1 then ESPHandler() end
 		if i == 2 then threw() end
